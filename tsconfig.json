@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node"
+  , "module": "commonjs"
+  , "target": "esnext"
+  , "strict": true
+  , "removeComments": true
+  , "sourceMap": true
+  , "jsx": "react"
+  , "experimentalDecorators": true
+  , "lib": [
+      "esnext"
+    , "dom"
+    , "es2017.object"
+    ]
+  }
+, "exclude": [
+    "dist"
+  , "node_modules"
+  ]
+}
